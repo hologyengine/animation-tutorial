@@ -3,6 +3,7 @@ import { CameraActor, SpawnPoint } from '@hology/core/gameplay/actors';
 import { inject, Service, World, GameInstance, ViewController } from '@hology/core/gameplay';
 import Character from '../actors/character';
 import Character2 from '../actors/character2';
+import Character3 from '../actors/character3';
 
 @Service()
 class Game extends GameInstance {
@@ -14,7 +15,7 @@ class Game extends GameInstance {
     this.view.setCamera(camera)    
 
     const spawnPoint = this.world.findActorByType(SpawnPoint)
-    spawnPoint.spawnActor(Character2)
+    spawnPoint.spawnActor(Character3)
   }
 }
 
