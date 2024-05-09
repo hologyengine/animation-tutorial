@@ -1,0 +1,10 @@
+{
+  "name": "character-human",
+  "path": "",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9c002a38-a876-4e7b-88d9-ecbd12f801a4",
+  "fileKey": "character-human.glb",
+  "fileFormat": "glb",
+  "sourceFile": "/Users/adamringhede/Downloads/kenney_mini-dungeon (2)/Models/GLB format/character-human.glb"
+}
