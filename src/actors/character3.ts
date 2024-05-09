@@ -4,6 +4,10 @@ import { CharacterAnimationComponent } from '@hology/core/gameplay/actors';
 import { ActionInput, InputService, Keybind } from '@hology/core/gameplay/input';
 import * as THREE from 'three';
 
+enum InputAction {
+  walk
+}
+
 @Actor()
 class Character3 extends BaseActor {
   private assetLoader = inject(AssetLoader)
@@ -22,8 +26,8 @@ class Character3 extends BaseActor {
 
     const pressingWalk = new ActionInput() 
 
-    this.input.setKeybind('walk', new Keybind('w'))
-    this.input.bindToggle('walk', pressingWalk.toggle)
+    this.input.setKeybind(InputAction.walk, new Keybind('w'))
+    this.input.bindToggle(InputAction.walk, pressingWalk.toggle)
     this.input.start()
 
     const idle = new AnimationState(idleClip)
