@@ -2,7 +2,7 @@
 
 This repo is a Hology Engine project with code examples for implementing animations.
 
-Read more about how to use animation with google in the documentation.
+Read more about how to use animation with Hology Engine in the documentation.
 https://docs.hology.app/gameplay/animation
 
 ## Examples
